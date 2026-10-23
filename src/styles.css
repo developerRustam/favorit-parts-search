@@ -1,0 +1,71 @@
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #212529;
+  background: #f5f6f8;
+  font-synthesis: none;
+}
+
+body {
+  margin: 0;
+  background: #f5f6f8;
+}
+
+.page-container {
+  max-width: 1040px;
+}
+
+.card {
+  border-color: #e2e6ea;
+}
+
+.brand-button {
+  width: 100%;
+  min-height: 54px;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  background: #fff;
+  color: #212529;
+  text-align: left;
+}
+
+.brand-button:hover,
+.brand-button:focus-visible {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(13, 110, 253, 0.15);
+}
+
+.brand-button-active {
+  border-color: #0d6efd;
+  background: #eef5ff;
+}
+
+.brand-button small {
+  flex: 0 0 auto;
+  color: #6c757d;
+}
+
+.status-panel {
+  min-height: 92px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.offers-table {
+  min-width: 760px;
+  font-size: 0.9rem;
+}
+
+.offers-table th {
+  white-space: nowrap;
+  color: #5c636a;
+  font-size: 0.8rem;
+}
